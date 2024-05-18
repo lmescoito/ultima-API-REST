@@ -1,0 +1,12 @@
+{%extends "inicio.html"%}
+
+{% load bootstrap5 %}
+
+{%block main%}
+    <h1> Reserve o Banho do seu PET </h1>
+
+    <form method = "post"> 
+        {%csrf_token%}        
+        {%bootstrap_form formulario%}
+    </form>
+{%endblock main%}

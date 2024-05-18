@@ -1,0 +1,31 @@
+[Comandos de Terminal]
+
+# Criar um projeto Django
+django-admin startproject <nome_do_projeto>
+
+# Criar uma nova app para o projeto Django
+python manage.py startapp
+
+# Rodar o projeto
+python manage.py runserver
+
+# Entrar na pasta
+cd <nome_da_pasta>
+
+
+
+
+
+[Comandos em Código]
+
+# Chamar URL no HTML
+{% url 'nome_da_url' %}
+
+
+
+
+[Dicas para Programação em Django]
+
+1. Definir um esqueleto do template da sua view
+2. Programar a view em views.py
+3. Adicionar a url da view em urls.py
